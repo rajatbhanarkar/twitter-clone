@@ -1,0 +1,18 @@
+.widgets {
+  flex: 0.33;
+  overflow-y: scroll;
+}
+
+.widgets > h2 {
+  color: var(--twitter-background);
+  font-size: 18px;
+  padding: 10px 40px;
+}
+
+.trendings,
+.follows {
+  border-radius: 10px;
+  background-color: #15171c;
+  margin-left: 35px;
+  margin-right: 25px;
+}

@@ -1,0 +1,21 @@
+.searchBar {
+  background-color: #15171c;
+  width: 81%;
+  border-radius: 30px;
+  padding: 8px 15px;
+  margin: 7px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.searchBar > .MuiSvgIcon-root {
+  color: grey;
+  font-size: 22px;
+}
+
+.searchBar > span {
+  color: grey;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: -3px;
+}

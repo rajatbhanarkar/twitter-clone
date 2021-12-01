@@ -1,0 +1,28 @@
+.trending {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trending_info {
+  padding: 12px 15px;
+}
+
+.trending_info > p {
+  color: #11ffffff;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.trending_info > h3 {
+  color: var(--twitter-background);
+  margin: 7px 0px;
+  font-size: 15px;
+}
+
+.trending > .MuiSvgIcon-root {
+  color: #11ffffff;
+  margin-right: 15px;
+  margin-top: 10px;
+  align-self: baseline;
+}

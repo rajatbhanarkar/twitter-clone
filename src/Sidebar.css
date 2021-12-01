@@ -1,0 +1,75 @@
+.sidebar {
+  border-right: 1px solid #263238;
+  flex: 0.195;
+  padding: 10px 20px;
+  height: 100vh;
+  position: relative;
+}
+
+.sidebar_tweet {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 40px !important;
+  margin-top: 10px !important;
+  padding: 23px !important;
+  font-size: 15px !important;
+}
+
+.sidebar > .MuiSvgIcon-root {
+  color: var(--twitter-background);
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.sidebar > .MuiSvgIcon-root:hover {
+  color: var(--twitter-color);
+  transform: scale(1.1);
+}
+
+.userdetails {
+  width: 79%;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userdetails > .MuiSvgIcon-root {
+  color: var(--twitter-background);
+  font-size: 25px;
+}
+
+.userinfo {
+  display: flex;
+  align-items: center;
+}
+
+.userinfo > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.usertext {
+  margin-left: 10px;
+}
+.username {
+  color: white;
+  margin-top: 14px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.userhandle {
+  color: gray;
+  font-size: 14px;
+  margin-top: -13px;
+}
